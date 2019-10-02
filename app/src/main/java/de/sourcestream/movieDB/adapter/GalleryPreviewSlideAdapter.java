@@ -19,7 +19,7 @@ package de.sourcestream.movieDB.adapter;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.res.Resources;
-import android.support.v13.app.FragmentStatePagerAdapter;
+import androidx.legacy.app.FragmentStatePagerAdapter;
 
 import java.util.ArrayList;
 

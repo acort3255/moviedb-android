@@ -17,9 +17,8 @@
 package de.sourcestream.movieDB;
 
 import android.app.FragmentManager;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.test.InstrumentationTestCase;
 import android.view.View;
 import android.widget.AbsListView;
@@ -31,10 +30,6 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.annotation.Config;
 
-import java.util.ArrayList;
-
-import de.sourcestream.movieDB.controller.GenresList;
-import de.sourcestream.movieDB.controller.MovieList;
 import de.sourcestream.movieDB.controller.TVList;
 
 @RunWith(RobolectricGradleTestRunner.class)

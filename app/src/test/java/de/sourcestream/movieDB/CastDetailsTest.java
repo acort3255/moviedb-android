@@ -18,7 +18,7 @@ package de.sourcestream.movieDB;
 
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.support.wearable.view.CircledImageView;
 import android.test.InstrumentationTestCase;
 import android.view.View;

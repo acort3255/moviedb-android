@@ -25,7 +25,7 @@ public class MovieDB extends Application {
     public static GoogleAnalytics analytics;
     public static Tracker tracker;
     public static final String url = "https://api.themoviedb.org/3/";
-    public static final String key = "yourTMDBkey";
+    public static final String key = "fed901de6edfbca37ea13874186d7462";
     public static final String imageUrl = "https://image.tmdb.org/t/p/";
     /**
      * Example URL:

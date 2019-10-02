@@ -19,7 +19,7 @@ package de.sourcestream.movieDB;
 import android.app.FragmentManager;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.test.InstrumentationTestCase;
 import android.widget.AbsListView;
 
