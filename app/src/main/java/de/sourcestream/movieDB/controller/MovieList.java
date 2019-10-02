@@ -467,7 +467,6 @@ public class MovieList extends Fragment implements AdapterView.OnItemClickListen
                              int visibleItemCount, int totalItemCount) {
 
             if (oldCount != totalItemCount && firstVisibleItem + visibleItemCount >= totalItemCount) {
-                loading = true;
                 oldCount = totalItemCount;
             }
             if (loading) {
